@@ -1,0 +1,145 @@
+[
+  {
+    "key": "clk",
+    "type": "label",
+    "dtype": "int64"
+  },
+  {
+    "key": "time_stamp",
+    "type": "pass"
+  },
+  {
+    "key": "userid",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "userid",
+    "i_dim": 1000001
+  },
+  {
+    "key": "adgroup_id",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "adgroup_id",
+    "i_dim": 1000001
+  },
+  {
+    "key": "pid",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "pid",
+    "i_dim": 1000001
+  },
+  {
+    "key": "cate_id",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "cate_id",
+    "i_dim": 1000001
+  },
+  {
+    "key": "campaign_id",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "campaign_id",
+    "i_dim": 1000001
+  },
+  {
+    "key": "customer",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "customer",
+    "i_dim": 1000001
+  },
+  {
+    "key": "brand",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "brand",
+    "i_dim": 1000001
+  },
+  {
+    "key": "price",
+    "type": "dense",
+    "dtype": "float32",
+    "trans": "log2"
+  },
+  {
+    "key": "cms_segid",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "cms_segid",
+    "i_dim": 10001
+  },
+  {
+    "key": "cms_group_id",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "cms_group_id",
+    "i_dim": 101
+  },
+  {
+    "key": "final_gender_code",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "final_gender_code",
+    "i_dim": 10
+  },
+  {
+    "key": "age_level",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "age_level",
+    "i_dim": 10
+  },
+  {
+    "key": "pvalue_level",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "pvalue_level",
+    "i_dim": 10
+  },
+  {
+    "key": "shopping_level",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "shopping_level",
+    "i_dim": 10
+  },
+  {
+    "key": "occupation",
+    "type": "dense",
+    "dtype": "float32",
+    "trans": "log2"
+  },
+  {
+    "key": "new_user_class_level",
+    "type": "sparse",
+    "dtype": "int64",
+    "hash_type": "sklearn",
+    "embed_key": "new_user_class_level",
+    "i_dim": 10
+  },
+  {
+    "key": "click_sequence",
+    "type": "sparse_seq",
+    "dtype": "int64",
+    "embed_key": "click_sequence",
+    "sep": "^",
+    "hash_type": "sklearn",
+    "seq_length": 8,
+    "i_dim": 1000001
+  }
+]
